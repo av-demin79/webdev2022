@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+html {
+    /* font-family: 'Roboto', sans-serif; */
+}
 .promo .container {
     width: 1140px;
     height: 800px;
@@ -43,7 +46,7 @@ h2.title {
 
 .title {
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 900;
     font-size: 41px;
     line-height: 41px;
     text-align: center;
@@ -52,7 +55,7 @@ h2.title {
 }
 
 .simple .title_big {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-weight: 900;
     font-size: 80px;
     line-height: 80px;
@@ -63,7 +66,7 @@ h2.title {
 }
 
 .promo .promo_text {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
@@ -74,6 +77,8 @@ h2.title {
 }
 
 .promo_text span {
+    font-family: Roboto;
+    font-weight: 900;
     text-transform: uppercase;
     color: #F9BF3B;
 }
@@ -86,6 +91,7 @@ h2.title {
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.18);
     font-family: 'RobotoCondensed';
+    font-weight: 400;
     font-size: 21px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -94,7 +100,7 @@ h2.title {
 }
 .more .more_text {
     margin-top: 72px;
-    font-family: 'Roboto';
+    font-family: 'RobotoThin';
     font-weight: 100;
     font-size: 15px;
     text-align: center;
@@ -157,6 +163,8 @@ h2.title {
     text-align: center;
 }
 .waiting .waiting_wrapper .waiting_descr {
+    font-family: Roboto;
+    font-weight: 300;
     margin-top: 26px;
 }
 
@@ -191,8 +199,8 @@ h2.title {
     color: #4A4A4A;
 }
 .optimization span {
-    font-family: 'Roboto-Bolt';
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-weight: 900;
 }
 .optimization .optimization_img {
     position: absolute;
@@ -283,7 +291,7 @@ h2.title {
 .first .first_text1 {
     margin-top: 36px;
      font-family: 'Roboto';
-     font-weight: 400;
+     font-weight: 300;
      font-size: 30px;
      text-align: center;
      text-transform: uppercase;
@@ -301,7 +309,7 @@ h2.title {
 .first .first_text3 {
     margin-top: 24.5px;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 300;
     font-size: 23px;
     text-align: center;
     color: #4A4A4A;
